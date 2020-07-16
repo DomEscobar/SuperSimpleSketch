@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "js-plugin-starter",
+  "name": "Susisketch",
   "version": "1.0.1",
-  "description": "VanillaJS plugin starter using Webpack",
+  "description": "Super simple sketch",
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack -p --config ./webpack.config.js",
@@ -13,12 +13,7 @@
     "url": "git+https://github.com/thatisuday/js-plugin-starter.git"
   },
   "keywords": [],
-  "author": "Uday Hiwarale <thatisuday@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thatisuday/js-plugin-starter/issues"
-  },
-  "homepage": "https://github.com/thatisuday/js-plugin-starter#readme",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.7.5",
     "@babel/plugin-proposal-class-properties": "^7.7.4",

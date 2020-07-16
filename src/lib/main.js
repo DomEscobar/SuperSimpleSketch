@@ -3,7 +3,7 @@ import { initPicker } from './colorpicker'
 import { stage, initStage } from './stage';
 import { selectTmpElement } from './actions';
 
-export class SusiDraw {
+export class SuSiSketch {
     
     constructor() {
 
