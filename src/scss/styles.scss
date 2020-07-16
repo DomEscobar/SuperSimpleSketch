@@ -1,0 +1,49 @@
+#palette
+{
+    max-width: 700px;
+    position: relative;
+    padding: 5px;
+    background: #f7f7f7;
+}
+
+#images-container
+{
+    padding: 5px;
+    background: #0095ff;
+}
+
+.right
+{
+    position: absolute;
+    right: 0px;
+}
+
+.susi-palette-item
+{
+  display:inline-block;
+  margin-right:10px;
+  cursor:pointer;
+}
+
+.susi-palette-color
+{
+  height:32px;
+  width:32px;
+}
+
+.susi-palette-colorOuter
+{
+  border:2px solid;
+  color:black;
+}
+
+.susi-pallette-item-selected, .susi_selected_imge
+{
+  filter: invert(38%) sepia(94%) saturate(624%) hue-rotate(153deg) brightness(111%) contrast(104%);
+}
+
+.picker
+{
+    position: absolute;
+    top: 40px;
+}

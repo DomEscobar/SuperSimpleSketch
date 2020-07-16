@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Super simple sketcher</title>
+    <script src="https://unpkg.com/konva@7.0.2/konva.min.js"></script>
+</head>
+
+<body>
+    <h1>Super simple sketcher</h1>
+    <diV style="max-width: 700px;">
+        <div id="palette">
+
+            <div id="susi-general" style="position: absolute; right: 0px;z-index: 1 ;">
+                <div class="picker" acp-color="#EFE9E7">
+                </div>
+            </div>
+        </div>
+
+        <div id="container" style="overflow:hidden; max-width:700px;max-height:450px; height:40vh;"></div>
+        <div id="images-container"></div>
+    </diV>
+
+</body>
+<script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+        // create instance of a plugin
+        var test = new SusiDraw();
+
+    });
+</script>
+
+</html>
