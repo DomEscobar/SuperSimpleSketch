@@ -4,21 +4,16 @@ import { stage, initStage } from './stage';
 import { selectTmpElement } from './actions';
 
 export class SuSiSketch {
-    
-    constructor() {
 
-        const images = []
-        images.push('http://nokol.net/icon/girl-icon.png');
-        images.push('http://nokol.net/icon/kid-icon.png');
-
-        images.push('http://nokol.net/icon/friends-icon.png');
-        images.push('http://nokol.net/icon/boys-icon.png');
+    constructor(images) {
 
         initStage()
         initPicker()
         build()
 
-        this.setImageIcons(images)
+        if (images) {
+            this.setImageIcons(images)
+        }
     }
 
     export() {

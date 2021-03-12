@@ -25,7 +25,7 @@ function loadScript(callback) {
 
     if (!existingScript) {
         const script = document.createElement('script')
-        script.src = 'http://nokol.net/cdn/acolorpicker.js'
+        script.src = 'https://nokol.net/cdn/acolorpicker.js'
         script.id = 'acolorpickerjs'
         document.body.appendChild(script)
 
